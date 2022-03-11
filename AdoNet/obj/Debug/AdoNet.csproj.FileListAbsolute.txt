@@ -1,0 +1,13 @@
+C:\Users\svel2\source\repos\AdoNet\AdoNet\bin\Debug\AdoNet.exe.config
+C:\Users\svel2\source\repos\AdoNet\AdoNet\bin\Debug\AdoNet.exe
+C:\Users\svel2\source\repos\AdoNet\AdoNet\bin\Debug\AdoNet.pdb
+C:\Users\svel2\source\repos\AdoNet\AdoNet\bin\Debug\CustomerObjects.dll
+C:\Users\svel2\source\repos\AdoNet\AdoNet\bin\Debug\DataAccessLayer.dll
+C:\Users\svel2\source\repos\AdoNet\AdoNet\bin\Debug\CustomerObjects.pdb
+C:\Users\svel2\source\repos\AdoNet\AdoNet\bin\Debug\DataAccessLayer.pdb
+C:\Users\svel2\source\repos\AdoNet\AdoNet\obj\Debug\AdoNet.csproj.AssemblyReference.cache
+C:\Users\svel2\source\repos\AdoNet\AdoNet\obj\Debug\AdoNet.csproj.SuggestedBindingRedirects.cache
+C:\Users\svel2\source\repos\AdoNet\AdoNet\obj\Debug\AdoNet.csproj.CoreCompileInputs.cache
+C:\Users\svel2\source\repos\AdoNet\AdoNet\obj\Debug\AdoNet.csproj.CopyComplete
+C:\Users\svel2\source\repos\AdoNet\AdoNet\obj\Debug\AdoNet.exe
+C:\Users\svel2\source\repos\AdoNet\AdoNet\obj\Debug\AdoNet.pdb

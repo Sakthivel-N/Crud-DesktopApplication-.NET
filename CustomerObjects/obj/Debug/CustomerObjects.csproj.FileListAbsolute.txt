@@ -1,0 +1,6 @@
+C:\Users\svel2\source\repos\AdoNet\CustomerObjects\bin\Debug\CustomerObjects.dll
+C:\Users\svel2\source\repos\AdoNet\CustomerObjects\bin\Debug\CustomerObjects.pdb
+C:\Users\svel2\source\repos\AdoNet\CustomerObjects\obj\Debug\CustomerObjects.csproj.AssemblyReference.cache
+C:\Users\svel2\source\repos\AdoNet\CustomerObjects\obj\Debug\CustomerObjects.csproj.CoreCompileInputs.cache
+C:\Users\svel2\source\repos\AdoNet\CustomerObjects\obj\Debug\CustomerObjects.dll
+C:\Users\svel2\source\repos\AdoNet\CustomerObjects\obj\Debug\CustomerObjects.pdb
