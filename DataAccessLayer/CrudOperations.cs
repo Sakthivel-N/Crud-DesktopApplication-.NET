@@ -105,31 +105,7 @@ namespace DataAccessLayer
 
         } //UpdateC
 
-        public static int UpdateByAttrCustomer(string colname,string colvalue,int Id)
-        {
-            using (SqlConnection con = new SqlConnection(ConnectionStringInformation))
-            {
-                //Step1
-                con.Open();
-
-                //Step2
-                SqlCommand cmd;
-                cmd = new SqlCommand("spUpdateByAttrCustomer", con);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@colname", colname);
-                cmd.Parameters.AddWithValue("@value", colvalue);
-                cmd.Parameters.AddWithValue("@id", Id);
-                
-
-                //Step3
-                int rowsAffected = cmd.ExecuteNonQuery();
-
-                //Step4
-                return rowsAffected;
-
-            } //using
-
-        } //UpdateC
+        
         public static int DeleteCustomer(int ID)
         {
             using (SqlConnection con = new SqlConnection(ConnectionStringInformation))

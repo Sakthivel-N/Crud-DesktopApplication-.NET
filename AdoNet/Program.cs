@@ -95,21 +95,7 @@ namespace AdoNet
 						break;
 					case 5:
 						Console.WriteLine("Thank you. Come Again");
-						break;
-					case 6:
-						Console.WriteLine("Updation for all fields !!");
-						Console.Write("\nEnter your ID : ");
-						int Idd = int.Parse(Console.ReadLine());
-						Console.WriteLine("1.Name\n2.City\n3.PhoneNumber");
-						string colname = Console.ReadLine();
-						string colvalue = Console.ReadLine();
-						RowsAffected = CrudOperations.UpdateByAttrCustomer(colname,colvalue,Idd);
-						if (RowsAffected > 0)
-							Console.WriteLine("Record Updated Successfully....");
-						else
-							Console.WriteLine("Record Updation not successfull");
-
-
+					
 
 						break;
 					default:
@@ -119,7 +105,7 @@ namespace AdoNet
 
 				Console.ReadKey();  //Pause the execution upto keypress event..
 
-			} while (choice >= 1 && choice < 7);
+			} while (choice >= 1 && choice < 5);
 		}
     }
 }
