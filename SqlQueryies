@@ -1,0 +1,44 @@
+create database CustomerDB
+use CustomerDB
+
+create table Customer
+(
+	ID int primary key identity(1001,1),
+    [Name] char(30) not null,
+    City char(30) not null,
+    PhoneNumber char(30) not null
+)
+
+create procedure spSaveCustomer
+	@Name char(30),
+	@City char(30),
+	@PhoneNumber char(30)
+as
+begin
+	insert into  Customer values(@Name,@City,@PhoneNumber)
+end
+
+
+
+create procedure spGetAllCustomers
+as
+begin
+	select * from Customer order by Name
+end
+
+create procedure spUpdateCustomer
+	@ID int,
+	@Name char(30),
+	@City char(30),
+	@PhoneNumber char(30)
+as 
+begin
+	update Customer set Name=@Name,City=@City,PhoneNumber=@PhoneNumber where ID=@ID
+end
+
+create procedure spDeleteCustomer
+	@ID int
+as
+begin
+	delete Customer where ID=@ID
+end
