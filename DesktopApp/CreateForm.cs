@@ -26,7 +26,7 @@ namespace DesktopApp
             customer.Name = txtName.Text;
             customer.City = cboCity.SelectedItem.ToString();
             customer.PhoneNumber = txtPhno.Text;
-            int RowsAffected = DataAccessLayer.CrudOperations.SaveEmployee(customer);
+            int RowsAffected = CrudOperations.SaveEmployee(customer);
 
             if (RowsAffected > 0)
                 MessageBox.Show("Record Inserted Successfully....","Success");

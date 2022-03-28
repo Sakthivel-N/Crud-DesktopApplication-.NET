@@ -22,7 +22,7 @@ namespace AdoNet
 				Console.WriteLine("3.Update Record");   //U-pdate
 				Console.WriteLine("4.Delete Record");   //D-elete
 				Console.WriteLine("5.Exit");
-				Console.WriteLine("6.Update New");
+				
 				Console.WriteLine("Enter your choice(1 / 2 / 3 / 4 /5)");
 				choice = int.Parse(Console.ReadLine());
 				int RowsAffected =0;
@@ -65,7 +65,7 @@ namespace AdoNet
 						Console.WriteLine("Updating customer Record");
 
 						Customer customerNeededToUpdate = new Customer();
-						Console.WriteLine("Enter Customer Name");
+						Console.WriteLine("Enter Customer ID");
 						customerNeededToUpdate.ID = int.Parse(Console.ReadLine());
 
 						Console.WriteLine("Enter Customer Name");

@@ -41,6 +41,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.lblAck = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnUpdate
@@ -148,6 +149,15 @@
             this.label6.TabIndex = 12;
             this.label6.Text = resources.GetString("label6.Text");
             // 
+            // lblAck
+            // 
+            this.lblAck.AutoSize = true;
+            this.lblAck.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAck.Location = new System.Drawing.Point(293, 380);
+            this.lblAck.Name = "lblAck";
+            this.lblAck.Size = new System.Drawing.Size(0, 33);
+            this.lblAck.TabIndex = 13;
+            // 
             // UpdateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -156,6 +166,7 @@
             this.BackgroundImage = global::DesktopApp.Properties.Resources._new;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblAck);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label5);
@@ -189,5 +200,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblAck;
     }
 }

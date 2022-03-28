@@ -35,9 +35,19 @@ namespace DesktopApp
             int RowsAffected = DataAccessLayer.CrudOperations.UpdateCustomer(customer);
 
             if (RowsAffected > 0)
+            {
+                lblAck.Text = "Successsfully";
                 MessageBox.Show("Record Inserted Successfully....", "Success");
+
+            }
+
             else
+            {
+                lblAck.Text = "UnSuccesssfully";
+
                 MessageBox.Show("Record insertion not successfull", "Failure");
+            }
+                
         }
 
         private void button1_Click(object sender, EventArgs e)
